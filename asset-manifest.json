@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/makko-spb/static/css/main.cf14fc44.css",
+    "main.js": "/makko-spb/static/js/main.57417d10.js",
+    "index.html": "/makko-spb/index.html",
+    "main.cf14fc44.css.map": "/makko-spb/static/css/main.cf14fc44.css.map",
+    "main.57417d10.js.map": "/makko-spb/static/js/main.57417d10.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cf14fc44.css",
+    "static/js/main.57417d10.js"
+  ]
+}
