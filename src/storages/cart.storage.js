@@ -44,6 +44,10 @@ class CartStorage {
         })
         return t
     }
+
+    isEmpty() {
+        return this.selected.length <= 0 ? true : false
+    }
 }
 
 const cartStorage = new CartStorage()
