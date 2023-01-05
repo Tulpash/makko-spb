@@ -1,22 +1,23 @@
-import { useState, useMemo } from 'react'
+import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import navigationStorage from '../storages/navigation.storage'
 
 const MenuButton = ({text, path, ico, action}) => {
     return(
         <Link 
             to={path} 
             className={"flex flex-row p-4 items-center justify-between text-2xl text-yellow-300 rounded-md duration-200 hover:bg-yellow-300 hover:text-slate-600 hover:pl-10"}
-            onClick={e => action != null ? action() : null}
+            onClick={() => action != null ? action() : null}
         >
             <div className={"flex flex-row gap-4"}>
-                <span class="material-symbols-outlined text-[35px]">
+                <span className="material-symbols-outlined text-[35px]">
                     {ico}
                 </span>
                 <span>
                     {text}
                 </span>
             </div>
-            <span class="material-symbols-outlined text-[35px] text-slate-600">
+            <span className="material-symbols-outlined text-[35px] text-slate-600">
                 chevron_right
             </span>
         </Link>
@@ -51,9 +52,9 @@ const ShortNavigation = () => {
                         </div>
                     </div>
                     <div className={"flex flex-col flex-shrink flex-grow basis-auto justify-center"}>
-                        <MenuButton text={"Меню"} path={"/catalog"} ico={"restaurant_menu"} action={hideMenu} />
-                        <MenuButton text={"О компании"} path={"/about"} ico={"apartment"} action={hideMenu} />
-                        <MenuButton text={"Пункты выдачи"} path={"/post"} ico={"store"} action={hideMenu} />
+                        {
+                            navigationStorage.menus.map((menu, id) => <MenuButton key={id} text={menu.title} path={menu.path} ico={menu.ico} action={() => setOpen(false)} />)
+                        }
                     </div>
                     <div className={"h-[50px]"}>
 

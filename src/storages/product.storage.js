@@ -6,7 +6,7 @@ class ProductStorage {
         {
             id: 1,
             title: "Лапша",
-            url: "https://grandkulinar.ru/uploads/posts/2020-05/1590842915_pibimpap.jpg",
+            url: "/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -14,7 +14,7 @@ class ProductStorage {
         {
             id: 2,
             title: "Овощи",
-            url: "https://sun9-19.userapi.com/impf/c858524/v858524277/18425/-Iosyyu3UNA.jpg?size=800x533&quality=96&sign=fae65b4c10e5bc89432d458e4efea5c2&type=album",
+            url: "/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -22,7 +22,7 @@ class ProductStorage {
         {
             id: 3,
             title: "Свинина",
-            url: "https://img.freepik.com/premium-photo/concept-of-tasty-food-with-sushi-top-view_185193-78051.jpg?w=2000",
+            url: "/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -30,7 +30,7 @@ class ProductStorage {
         {
             id: 4,
             title: "Лапша",
-            url: "https://grandkulinar.ru/uploads/posts/2020-05/1590842915_pibimpap.jpg",
+            url: "/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -38,7 +38,7 @@ class ProductStorage {
         {
             id: 5,
             title: "Овощи",
-            url: "https://sun9-19.userapi.com/impf/c858524/v858524277/18425/-Iosyyu3UNA.jpg?size=800x533&quality=96&sign=fae65b4c10e5bc89432d458e4efea5c2&type=album",
+            url: "/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -46,7 +46,7 @@ class ProductStorage {
         {
             id: 6,
             title: "Свинина",
-            url: "https://img.freepik.com/premium-photo/concept-of-tasty-food-with-sushi-top-view_185193-78051.jpg?w=2000",
+            url: "/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -54,7 +54,7 @@ class ProductStorage {
         {
             id: 7,
             title: "Лапша",
-            url: "https://grandkulinar.ru/uploads/posts/2020-05/1590842915_pibimpap.jpg",
+            url: "/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -62,7 +62,7 @@ class ProductStorage {
         {
             id: 8,
             title: "Овощи",
-            url: "https://sun9-19.userapi.com/impf/c858524/v858524277/18425/-Iosyyu3UNA.jpg?size=800x533&quality=96&sign=fae65b4c10e5bc89432d458e4efea5c2&type=album",
+            url: "/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -70,7 +70,7 @@ class ProductStorage {
         {
             id: 9,
             title: "Свинина",
-            url: "https://img.freepik.com/premium-photo/concept-of-tasty-food-with-sushi-top-view_185193-78051.jpg?w=2000",
+            url: "/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -78,7 +78,7 @@ class ProductStorage {
         {
             id: 10,
             title: "Лапша",
-            url: "https://grandkulinar.ru/uploads/posts/2020-05/1590842915_pibimpap.jpg",
+            url: "/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -86,7 +86,7 @@ class ProductStorage {
         {
             id: 11,
             title: "Овощи",
-            url: "https://sun9-19.userapi.com/impf/c858524/v858524277/18425/-Iosyyu3UNA.jpg?size=800x533&quality=96&sign=fae65b4c10e5bc89432d458e4efea5c2&type=album",
+            url: "/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -94,7 +94,7 @@ class ProductStorage {
         {
             id: 12,
             title: "Свинина",
-            url: "https://img.freepik.com/premium-photo/concept-of-tasty-food-with-sushi-top-view_185193-78051.jpg?w=2000",
+            url: "/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -102,7 +102,7 @@ class ProductStorage {
         {
             id: 13,
             title: "Лапша",
-            url: "https://grandkulinar.ru/uploads/posts/2020-05/1590842915_pibimpap.jpg",
+            url: "/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -110,7 +110,7 @@ class ProductStorage {
         {
             id: 14,
             title: "Овощи",
-            url: "https://sun9-19.userapi.com/impf/c858524/v858524277/18425/-Iosyyu3UNA.jpg?size=800x533&quality=96&sign=fae65b4c10e5bc89432d458e4efea5c2&type=album",
+            url: "/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -118,7 +118,7 @@ class ProductStorage {
         {
             id: 15,
             title: "Свинина",
-            url: "https://img.freepik.com/premium-photo/concept-of-tasty-food-with-sushi-top-view_185193-78051.jpg?w=2000",
+            url: "/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -126,7 +126,7 @@ class ProductStorage {
         {
             id: 16,
             title: "Лапша",
-            url: "https://grandkulinar.ru/uploads/posts/2020-05/1590842915_pibimpap.jpg",
+            url: "/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -134,7 +134,7 @@ class ProductStorage {
         {
             id: 17,
             title: "Овощи",
-            url: "https://sun9-19.userapi.com/impf/c858524/v858524277/18425/-Iosyyu3UNA.jpg?size=800x533&quality=96&sign=fae65b4c10e5bc89432d458e4efea5c2&type=album",
+            url: "/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -142,7 +142,7 @@ class ProductStorage {
         {
             id: 18,
             title: "Свинина",
-            url: "https://img.freepik.com/premium-photo/concept-of-tasty-food-with-sushi-top-view_185193-78051.jpg?w=2000",
+            url: "/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349

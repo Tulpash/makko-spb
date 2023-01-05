@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import navigationStorage from '../storages/navigation.storage'
 
 const MenuButton = ({text, path, ico}) => {
     return(
@@ -16,9 +17,9 @@ const MenuButton = ({text, path, ico}) => {
 const FullNavigation = () => {
     return(
         <div className={'flex flex-row gap-4'}>
-            <MenuButton text={"Меню"} path={"/catalog"} ico={"restaurant_menu"} />
-            <MenuButton text={"О компании"} path={"/about"} ico={"apartment"} />
-            <MenuButton text={"Пункты выдачи"} path={"/post"} ico={"store"} />
+            {
+                navigationStorage.menus.map((menu, id) => <MenuButton key={id} text={menu.title} path={menu.path} ico={menu.ico} />)
+            }
         </div>
     )
 }

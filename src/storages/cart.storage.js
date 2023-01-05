@@ -27,6 +27,10 @@ class CartStorage {
         return this.selected.filter(e => e.id === id).length
     }
 
+    count() {
+        return this.selected.length
+    }
+
     fullPrice() {
         if (this.selected.length <= 0)
             return 0
