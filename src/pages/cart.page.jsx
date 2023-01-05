@@ -18,7 +18,7 @@ const CartPage = () => {
                         <div className={'text-white text-[30px] mt-[20px]'}>
                             В корзине пусто
                         </div>
-                        <Link to={'/catalog'} className={'px-5 py-2 text-yellow-300 text-[20px] rounded-md cursor-pointer duration-200 hover:bg-yellow-300 hover:text-slate-600'}>
+                        <Link to={'/makko-spb/catalog'} className={'px-5 py-2 text-yellow-300 text-[20px] rounded-md cursor-pointer duration-200 hover:bg-yellow-300 hover:text-slate-600'}>
                             За покупками
                         </Link>
                     </div> :

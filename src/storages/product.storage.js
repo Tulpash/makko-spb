@@ -6,7 +6,7 @@ class ProductStorage {
         {
             id: 1,
             title: "Лапша",
-            url: "/images/1.jpg",
+            url: "/makko-spb/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -14,7 +14,7 @@ class ProductStorage {
         {
             id: 2,
             title: "Овощи",
-            url: "/images/2.jpg",
+            url: "/makko-spb/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -22,7 +22,7 @@ class ProductStorage {
         {
             id: 3,
             title: "Свинина",
-            url: "/images/3.jpg",
+            url: "/makko-spb/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -30,7 +30,7 @@ class ProductStorage {
         {
             id: 4,
             title: "Лапша",
-            url: "/images/1.jpg",
+            url: "/makko-spb/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -38,7 +38,7 @@ class ProductStorage {
         {
             id: 5,
             title: "Овощи",
-            url: "/images/2.jpg",
+            url: "/makko-spb/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -46,7 +46,7 @@ class ProductStorage {
         {
             id: 6,
             title: "Свинина",
-            url: "/images/3.jpg",
+            url: "/makko-spb/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -54,7 +54,7 @@ class ProductStorage {
         {
             id: 7,
             title: "Лапша",
-            url: "/images/1.jpg",
+            url: "/makko-spb/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -62,7 +62,7 @@ class ProductStorage {
         {
             id: 8,
             title: "Овощи",
-            url: "/images/2.jpg",
+            url: "/makko-spb/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -70,7 +70,7 @@ class ProductStorage {
         {
             id: 9,
             title: "Свинина",
-            url: "/images/3.jpg",
+            url: "/makko-spb/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -78,7 +78,7 @@ class ProductStorage {
         {
             id: 10,
             title: "Лапша",
-            url: "/images/1.jpg",
+            url: "/makko-spb/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -86,7 +86,7 @@ class ProductStorage {
         {
             id: 11,
             title: "Овощи",
-            url: "/images/2.jpg",
+            url: "/makko-spb/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -94,7 +94,7 @@ class ProductStorage {
         {
             id: 12,
             title: "Свинина",
-            url: "/images/3.jpg",
+            url: "/makko-spb/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -102,7 +102,7 @@ class ProductStorage {
         {
             id: 13,
             title: "Лапша",
-            url: "/images/1.jpg",
+            url: "/makko-spb/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -110,7 +110,7 @@ class ProductStorage {
         {
             id: 14,
             title: "Овощи",
-            url: "/images/2.jpg",
+            url: "/makko-spb/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -118,7 +118,7 @@ class ProductStorage {
         {
             id: 15,
             title: "Свинина",
-            url: "/images/3.jpg",
+            url: "/makko-spb/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349
@@ -126,7 +126,7 @@ class ProductStorage {
         {
             id: 16,
             title: "Лапша",
-            url: "/images/1.jpg",
+            url: "/makko-spb/images/1.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 299
@@ -134,7 +134,7 @@ class ProductStorage {
         {
             id: 17,
             title: "Овощи",
-            url: "/images/2.jpg",
+            url: "/makko-spb/images/2.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 149
@@ -142,7 +142,7 @@ class ProductStorage {
         {
             id: 18,
             title: "Свинина",
-            url: "/images/3.jpg",
+            url: "/makko-spb/images/3.jpg",
             mass: 200,
             description: "лапша удон, рыба красная, креветка тигровая, томаты черри, перец болгарский, огурец, азиатский соус, укроп",
             price: 349

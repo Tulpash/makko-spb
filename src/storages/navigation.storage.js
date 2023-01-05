@@ -8,22 +8,22 @@ class NavigationStorage {
     menus = [
         {
             title: "Главная",
-            path: "/",
+            path: "/makko-spb/",
             ico: "restaurant_menu"
         },
         {
             title: "Каталог",
-            path: "/catalog",
+            path: "makko-spb/catalog",
             ico: "restaurant_menu"
         },
         {
             title: "Условия",
-            path: "/post",
+            path: "makko-spb/post",
             ico: "store"
         },
         {
             title: "О магазине",
-            path: "/about",
+            path: "makko-spb/about",
             ico: "apartment"
         }
     ]

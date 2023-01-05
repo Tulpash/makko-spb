@@ -8,9 +8,11 @@ const RouteConfig = () => {
     return(
         <BrowserRouter>
             <Routes>
-                <Route path={'/'} element={<MainLayout><CatalogPage /></MainLayout>}/>
-                <Route path={'/catalog'} element={<MainLayout><CatalogPage /></MainLayout>}/>
-                <Route path={'/cart'} element={<MainLayout><CartPage /></MainLayout>}/>
+                <Route path={'/makko-spb'}>
+                    <Route index element={<MainLayout><CatalogPage /></MainLayout>}/>
+                    <Route path={'catalog'} element={<MainLayout><CatalogPage /></MainLayout>}/>
+                    <Route path={'cart'} element={<MainLayout><CartPage /></MainLayout>}/>
+                </Route>
                 <Route path={'*'} element={<MainLayout><NotFoundPage /></MainLayout>}/>
             </Routes>
         </BrowserRouter>
