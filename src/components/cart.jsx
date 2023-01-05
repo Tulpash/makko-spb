@@ -11,7 +11,7 @@ const Cart = () => {
                         shopping_cart
                     </span>
                     <div className={'min-w-[20px] h-[20px] w-max absolute top-0 right-0 translate-x-[50%] translate-y-[-50%] rounded-[50%] bg-red-400 text-[12px] flex items-center justify-center'}>
-                        {cartStorage.count()}
+                        {cartStorage.size()}
                     </div>
                 </div>
             </div>

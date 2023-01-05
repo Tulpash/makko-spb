@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 import { observer } from "mobx-react"
 import cartStorage from '../storages/cart.storage'
 import CartSlot from '../components/cartSlot'
-import { isVisible } from '@testing-library/user-event/dist/utils'
 
 const CartPage = () => {
     const isEmpty = cartStorage.isEmpty()

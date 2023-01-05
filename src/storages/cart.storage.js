@@ -27,7 +27,7 @@ class CartStorage {
         return this.selected.filter(e => e.id === id).length
     }
 
-    count() {
+    size() {
         return this.selected.length
     }
 
