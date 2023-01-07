@@ -5,7 +5,7 @@ const FloatInput = ({placeholder}) => {
                 type={'text'} 
                 name={'promocode'} 
                 placeholder={'Промокод'} 
-                className={'w-full h-full px-[10px] bg-slate-800 rounded-md text-yellow-300 placeholder-transparent border-2 border-slate-800 peer duration-200 hover:border-yellow-300 focus:border-yellow-300'}
+                className={'w-full h-[50px] px-[10px] bg-slate-800 rounded-md text-yellow-300 placeholder-transparent border-2 border-slate-800 peer duration-200 hover:border-yellow-300 focus:border-yellow-300'}
             />
             <label 
                 htmlFor={'promocode'}

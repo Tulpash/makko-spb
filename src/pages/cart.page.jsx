@@ -5,6 +5,7 @@ import cartStorage from '../storages/cart.storage'
 import CartSlot from '../components/cartSlot'
 import FloatInput from '../components/floatInput'
 import Delivery from '../components/delivery'
+import SelfService from '../components/selfService'
 
 const CartPage = () => {
     const isEmpty = cartStorage.isEmpty()
@@ -56,7 +57,7 @@ const CartPage = () => {
                             <div className={'w-full'}>
                                 {
                                     left === 0 ?
-                                    <div></div> :
+                                    <SelfService /> :
                                     <Delivery />
                                 }
                             </div>

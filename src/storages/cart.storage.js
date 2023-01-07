@@ -1,5 +1,6 @@
 import { makeAutoObservable, toJS } from 'mobx'
 import productStorage from './product.storage'
+import storeStorage from './store.storage'
 
 class CartStorage {
     constructor() {
@@ -7,6 +8,7 @@ class CartStorage {
     }
 
     selected = []
+    store = null
 
     add(id) {
         let item = productStorage.products.filter(e => e.id === id).slice()[0]
@@ -51,6 +53,10 @@ class CartStorage {
 
     isEmpty() {
         return this.selected.length <= 0 ? true : false
+    }
+
+    selectStore(id) {
+        this.store = storeStorage.stores.filter(s => s.id === id)[0]
     }
 }
 
