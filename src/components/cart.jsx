@@ -1,6 +1,5 @@
 import { observer } from 'mobx-react'
 import { Link } from 'react-router-dom'
-import cartStorage from '../storages/cart.storage'
 
 const Cart = () => {
     return(
