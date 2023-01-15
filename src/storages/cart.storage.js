@@ -1,4 +1,4 @@
-import { makeAutoObservable, toJS } from 'mobx'
+import { makeAutoObservable } from 'mobx'
 import productStorage from './product.storage'
 import storeStorage from './store.storage'
 
@@ -7,8 +7,19 @@ class CartStorage {
         makeAutoObservable(this)
     }
 
+    //Selected food
     selected = []
+
+    //Fort cart
+    isDelivery = false
+
+    //For cart - delivery
     store = null
+
+    //For cart - self service
+    name = null
+    phone = null
+    address = null
 
     add(id) {
         let item = productStorage.products.filter(e => e.id === id).slice()[0]
@@ -57,6 +68,31 @@ class CartStorage {
 
     selectStore(id) {
         this.store = storeStorage.stores.filter(s => s.id === id)[0]
+    }
+
+    setDelivery(bool) {
+        this.isDelivery = bool
+    }
+
+    selectName(name) {
+        this.name = name
+    }
+
+    selectAddress(address) {
+        this.address = address
+    }
+
+    selectPhone(phone) {
+        this.phone = phone
+    }
+
+    isReadyToBuy() {
+        if (!this.isDelivery)
+            return this.store !== null
+        else 
+            return this.name !== null && this.name !== "" &&
+                this.phone !== null && this.phone !== "" &&
+                this.address !== null && this.address !== "" 
     }
 }
 

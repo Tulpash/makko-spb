@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
-import navigationStorage from '../storages/navigation.storage'
 
 const MenuButton = ({text, path, ico, action}) => {
     return(
@@ -52,9 +51,10 @@ const ShortNavigation = () => {
                         </div>
                     </div>
                     <div className={"flex flex-col flex-shrink flex-grow basis-auto justify-center"}>
-                        {
-                            navigationStorage.menus.map((menu, id) => <MenuButton key={id} text={menu.title} path={menu.path} ico={menu.ico} action={() => setOpen(false)} />)
-                        }
+                        <MenuButton text={'Главная'} path={'/makko-spb'} ico={'restaurant_menu'} action={() => setOpen(false)} />
+                        <MenuButton text={'Каталог'} path={'/makko-spb/catalog'} ico={'restaurant_menu'} action={() => setOpen(false)} />
+                        <MenuButton text={'Условия'} path={'/makko-spb/terms'} ico={'restaurant_menu'} action={() => setOpen(false)} />
+                        <MenuButton text={'О нас'} path={'/makko-spb/about'} ico={'restaurant_menu'} action={() => setOpen(false)} />
                     </div>
                     <div className={"h-[50px]"}>
 
