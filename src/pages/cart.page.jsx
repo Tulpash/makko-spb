@@ -33,9 +33,9 @@ const CartPage = () => {
                             {cartStorage.cart().map(group => <CartSlot key={group.id} productGroup={group} />)}
                         </div>
                         <div className={'w-full lg:pt-6 pb-4 flex flex-col gap-4 justify-start items-ceter'}>
-                            <div className={'w-full h-[50px] flex items-center justify-between'}>
+                            <div className={'w-full min-h-[50px] flex items-center justify-between'}>
                                 <FloatInput placeholder={'Промокод'} />
-                                <div className={'w-1/3 h-full flex items-center justify-end text-yellow-300 text-[25px] md:text-[30px]'}>
+                                <div className={'w-1/3 h-full flex items-end justify-end text-yellow-300 text-[25px] md:text-[30px]'}>
                                     {cartStorage.fullPrice()} р
                                 </div>  
                             </div>

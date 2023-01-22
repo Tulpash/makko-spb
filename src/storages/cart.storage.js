@@ -20,6 +20,19 @@ class CartStorage {
     name = null
     phone = null
     address = null
+    time = null
+    agree = false
+
+    reset() {
+        this.selected = []
+        this.isDelivery = false
+        this.store = null
+        this.name = null
+        this.phone = null
+        this.address = null
+        this.time = null
+        this.agree = false
+    }
 
     add(id) {
         let item = productStorage.products.filter(e => e.id === id).slice()[0]
@@ -86,13 +99,23 @@ class CartStorage {
         this.phone = phone
     }
 
+    selectTime(time) {
+        this.time = time
+    }
+
+    selectAgree(agree) {
+        this.agree = agree
+    }
+
     isReadyToBuy() {
         if (!this.isDelivery)
             return this.store !== null
         else 
             return this.name !== null && this.name !== "" &&
                 this.phone !== null && this.phone !== "" &&
-                this.address !== null && this.address !== "" 
+                this.address !== null && this.address !== "" &&
+                this.time !== null && this.time !== "" && 
+                this.agree === true         
     }
 }
 

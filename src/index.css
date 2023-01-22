@@ -28,3 +28,19 @@ body {
     display: flex;
     flex-direction: column;
 }
+
+select {
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+select:-webkit-scrollbar { 
+    width: 0;
+    height: 0;
+}
+
+select::-webkit-scrollbar {display:none;}
+select::-moz-scrollbar {display:none;}
+select::-o-scrollbar {display:none;}
+select::-google-ms-scrollbar {display:none;}
+select::-khtml-scrollbar {display:none;}

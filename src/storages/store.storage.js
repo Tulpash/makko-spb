@@ -1,4 +1,5 @@
 import { makeAutoObservable } from "mobx"
+import { format } from 'date-fns'
 
 class StoreStorage {
     constructor() {
@@ -35,6 +36,28 @@ class StoreStorage {
             cords: [57.83711, 28.38647]
         }
     ]
+
+    availableTime() {
+        //End time
+        let end = new Date()
+        end.setHours(23)
+        end.setMinutes(0)
+
+        //current time
+        let now = new Date()
+        now.setHours(now.getHours() + 1)
+
+        //Result times
+        let times = []
+
+        while (end > now) {
+            let tmp = format(end, 'HH:mm')
+            times.push(tmp)
+            end.setMinutes(end.getMinutes() - 15)
+        }
+
+        return times.reverse()
+    }
 }
 
 const storeStorage = new StoreStorage()
