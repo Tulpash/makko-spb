@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/makko-spb/static/css/main.03ceda2b.css",
-    "main.js": "/makko-spb/static/js/main.119c901a.js",
+    "main.css": "/makko-spb/static/css/main.0f1181a1.css",
+    "main.js": "/makko-spb/static/js/main.84ed3ac9.js",
     "index.html": "/makko-spb/index.html",
-    "main.03ceda2b.css.map": "/makko-spb/static/css/main.03ceda2b.css.map",
-    "main.119c901a.js.map": "/makko-spb/static/js/main.119c901a.js.map"
+    "main.0f1181a1.css.map": "/makko-spb/static/css/main.0f1181a1.css.map",
+    "main.84ed3ac9.js.map": "/makko-spb/static/js/main.84ed3ac9.js.map"
   },
   "entrypoints": [
-    "static/css/main.03ceda2b.css",
-    "static/js/main.119c901a.js"
+    "static/css/main.0f1181a1.css",
+    "static/js/main.84ed3ac9.js"
   ]
 }
