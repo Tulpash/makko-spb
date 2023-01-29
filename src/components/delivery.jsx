@@ -23,9 +23,9 @@ const Delivery = () => {
                     </select>
                 </div>
             </div>      
-            <div className={'w-full flex items-start gap-2'}>
+            <div className={'w-full flex items-start'}>
                 <div 
-                    className={`flex flex-row justify-center items-center ${cartStorage.agree ? 'text-yellow-300' : 'text-white text-opacity-50'} cursor-pointer bg-slate-800 border-2 border-transparent rounded-md p-2 duration-200 hover:border-yellow-300`}
+                    className={`flex flex-row justify-center items-center ${cartStorage.agree ? 'text-yellow-300' : 'text-white text-opacity-50'} cursor-pointer bg-slate-800 border-2 border-transparent rounded-md p-[10px] duration-200 hover:border-yellow-300`}
                     onClick={e => cartStorage.selectAgree(!cartStorage.agree)}
                 >
                     <span className={`material-symbols-outlined duration-200 ${cartStorage.agree ? 'text-[30px] mr-2' : 'text-[0px]'}`}>

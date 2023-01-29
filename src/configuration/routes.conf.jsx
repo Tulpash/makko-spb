@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import MainLayout from '../layouts/main.layout'
+import MainPage from '../pages/main.page'
 import CatalogPage from '../pages/catalog.page'
 import CartPage from '../pages/cart.page'
 import BuyPage from '../pages/buy.page'
@@ -10,7 +11,7 @@ const RouteConfig = () => {
         <BrowserRouter>
             <Routes>
                 <Route path={'/makko-spb'}>
-                    <Route path={''} element={<MainLayout><CatalogPage /></MainLayout>}/>
+                    <Route path={''} element={<MainLayout><MainPage /></MainLayout>}/>
                     <Route path={'catalog'} element={<MainLayout><CatalogPage /></MainLayout>}/>
                     <Route path={'cart'} element={<MainLayout><CartPage /></MainLayout>}/>
                     <Route path={'about'} element={<MainLayout><NotFoundPage /></MainLayout>}/>

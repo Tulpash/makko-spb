@@ -18,7 +18,7 @@ const ProductInfo = () => {
                     />
                 </div>
                 <div className={'w-full h-[50%] lg:w-[50%] lg:h-full flex flex-col'}>
-                    <div className={'fixed top-0 right-0 lg:relative flex flex-row justify-end place-items-center p-[10px]'}>
+                    <div className={'fixed top-0 right-0 lg:relative flex flex-row justify-end place-items-center py-[5px] px-[20px]'}>
                         <span 
                             className={"material-symbols-outlined cursor-pointer text-[30px] text-white text-opacity-50 duration-200 hover:text-opacity-100"}
                             onClick={() => productStorage.setOpen(false)}    
@@ -26,13 +26,13 @@ const ProductInfo = () => {
                             close
                         </span>
                     </div>
-                    <div className={'text-yellow-300 text-[40px] p-[10px]'}>
+                    <div className={'text-yellow-300 text-[35px] py-[5px] px-[20px]'}>
                         {prod.title}
                     </div>
-                    <div className={'text-white flex-shrink basis-[100%] p-[10px]'}>
+                    <div className={'text-white flex-shrink basis-[100%] py-[5px] px-[20px]'}>
                         {prod.description}
                     </div>
-                    <div className={'flex justify-between items-center p-[10px]'}>
+                    <div className={'flex justify-between items-center py-[5px] px-[20px]'}>
                         <span className={'text-[30px] text-white'}>{prod.mass} г</span>
                         <span className={'text-[30px] text-yellow-300'}>{prod.price} р</span>
                     </div>

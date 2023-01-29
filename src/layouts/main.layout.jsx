@@ -2,6 +2,7 @@ import LinkLogo from '../components/linkLogo'
 import Cart from '../components/cart'
 import FullNavigation from '../components/fullNavigation'
 import ShortNavigation from '../components/shortNavigation'
+import Footer from '../components/footer'
 
 const MainLayout = (props) => {
     return(
@@ -27,7 +28,7 @@ const MainLayout = (props) => {
                 {props.children}
             </main>
             <footer className={'h-[150px] bg-slate-600'}>
-                
+                <Footer />
             </footer>
         </>
     )
