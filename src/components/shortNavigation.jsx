@@ -53,7 +53,6 @@ const ShortNavigation = () => {
                     <div className={"flex flex-col flex-shrink flex-grow basis-auto justify-center"}>
                         <MenuButton text={'Главная'} path={'/makko-spb'} ico={'restaurant_menu'} action={() => setOpen(false)} />
                         <MenuButton text={'Каталог'} path={'/makko-spb/catalog'} ico={'restaurant_menu'} action={() => setOpen(false)} />
-                        <MenuButton text={'Условия'} path={'/makko-spb/terms'} ico={'restaurant_menu'} action={() => setOpen(false)} />
                         <MenuButton text={'О нас'} path={'/makko-spb/about'} ico={'restaurant_menu'} action={() => setOpen(false)} />
                     </div>
                     <div className={"h-[50px]"}>

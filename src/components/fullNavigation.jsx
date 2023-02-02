@@ -18,7 +18,6 @@ const FullNavigation = () => {
         <div className={'flex flex-row gap-4'}>
             <MenuButton text={'Главная'} path={'/makko-spb'} ico={'restaurant_menu'} />
             <MenuButton text={'Каталог'} path={'/makko-spb/catalog'} ico={'restaurant_menu'} />
-            <MenuButton text={'Условия'} path={'/makko-spb/terms'} ico={'restaurant_menu'} />
             <MenuButton text={'О нас'} path={'/makko-spb/about'} ico={'restaurant_menu'} />
         </div>
     )
