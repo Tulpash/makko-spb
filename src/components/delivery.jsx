@@ -4,7 +4,7 @@ import cartStorage from "../storages/cart.storage"
 import storeStorage from '../storages/store.storage'
 
 const Delivery = () => {
-    const times = storeStorage.availableTime()
+    const times = storeStorage.availableTime(15)
     cartStorage.selectTime(times[0])
     return(
         <div className={'w-full py-[10px] flex flex-col gap-2'}>
